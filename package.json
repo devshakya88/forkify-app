@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devshakya88/forkify-app.git"
+  },
+  "author": "Devender Shakya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devshakya88/forkify-app/issues"
+  },
+  "homepage": "https://github.com/devshakya88/forkify-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}

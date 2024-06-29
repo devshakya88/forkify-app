@@ -48,6 +48,9 @@ const showRecipe = async function () {
     if (!response.ok) {
       throw new Error(`${data.message} (${response.status})`);
     }
+
+    //No work
+
     // console.log(data);
     let { recipe } = data.data;
     recipe = {

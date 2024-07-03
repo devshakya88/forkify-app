@@ -1,4 +1,4 @@
-console.log('Hello From recipe');
+// console.log('Hello From recipe');
 
 import icons from 'url:../../img/icons.svg';
 import { Fraction } from 'fractional';
@@ -19,7 +19,7 @@ class RecipeView {
     this.#parentElement.innerHTML = '';
   }
   //Loading Spinner
-  renderSpinner = function () {
+  renderSpinner() {
     const markUp = `
       <div class="spinner">
           <svg>
@@ -30,7 +30,22 @@ class RecipeView {
       `;
     this.#parentElement.innerHTML = '';
     this.#parentElement.insertAdjacentHTML('afterbegin', markUp);
-  };
+  }
+
+  renderError(message) {
+    const markup = `
+         <div class="error">
+            <div>
+              <svg>
+                <use href="${icons}#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>
+    `;
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
 
   addHandleRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));

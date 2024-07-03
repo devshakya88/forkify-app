@@ -1,4 +1,4 @@
-console.log('Hello From Model');
+// console.log('Hello From Model');
 import async from 'regenerator-runtime';
 import { API_URL } from './config.js';
 import { getJSON } from './helpers.js';

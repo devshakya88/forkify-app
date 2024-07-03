@@ -1,4 +1,4 @@
-console.log('Hello From Controller');
+// console.log('Hello From Controller');
 import * as model from './model.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -24,8 +24,8 @@ const controlRecipes = async function () {
     recipeView.render(model.state.recipe);
     const recipeView = new recipeView(model.state.recipe);
   } catch (error) {
-    alert(error);
     console.log(error);
+    recipeView.renderError();
   }
 };
 

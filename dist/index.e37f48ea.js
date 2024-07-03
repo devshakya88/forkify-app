@@ -584,13 +584,13 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"aenu9":[function(require,module,exports) {
+// console.log('Hello From Controller');
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _webImmediateJs = require("core-js/modules/web.immediate.js");
 var _modelJs = require("./model.js");
 var _runtime = require("regenerator-runtime/runtime");
 var _recipeViewJs = require("./views/recipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
-console.log("Hello From Controller");
 const recipeContainer = document.querySelector(".recipe");
 // https://forkify-api.herokuapp.com/v2
 ///////////////////////////////////////
@@ -605,8 +605,8 @@ const controlRecipes = async function() {
         recipeView.render(_modelJs.state.recipe);
         const recipeView = new recipeView(_modelJs.state.recipe);
     } catch (error) {
-        alert(error);
         console.log(error);
+        (0, _recipeViewJsDefault.default).renderError();
     }
 };
 const init = function() {
@@ -2463,6 +2463,7 @@ try {
 }
 
 },{}],"Y4A21":[function(require,module,exports) {
+// console.log('Hello From Model');
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
@@ -2471,7 +2472,6 @@ var _regeneratorRuntime = require("regenerator-runtime");
 var _regeneratorRuntimeDefault = parcelHelpers.interopDefault(_regeneratorRuntime);
 var _configJs = require("./config.js");
 var _helpersJs = require("./helpers.js");
-console.log("Hello From Model");
 const state = {
     recipe: {}
 };
@@ -2533,12 +2533,12 @@ const getJSON = async function(url) {
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"k5Hzs"}],"l60JC":[function(require,module,exports) {
+// console.log('Hello From recipe');
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fractional = require("fractional");
-console.log("Hello From recipe");
 class RecipeView {
     #parentElement = document.querySelector(".recipe");
     #data;
@@ -2553,7 +2553,7 @@ class RecipeView {
         this.#parentElement.innerHTML = "";
     }
     //Loading Spinner
-    renderSpinner = function() {
+    renderSpinner() {
         const markUp = `
       <div class="spinner">
           <svg>
@@ -2564,7 +2564,21 @@ class RecipeView {
       `;
         this.#parentElement.innerHTML = "";
         this.#parentElement.insertAdjacentHTML("afterbegin", markUp);
-    };
+    }
+    renderError(message) {
+        const markup = `
+         <div class="error">
+            <div>
+              <svg>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>
+    `;
+        this.#clear();
+        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
     addHandleRender(handler) {
         [
             "hashchange",

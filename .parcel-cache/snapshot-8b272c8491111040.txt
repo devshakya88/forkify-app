@@ -1,4 +1,4 @@
-9711
+9712
 85D:\My Project\forkify-app\node_modules\caniuse-lite\data\features\addeventlistener.js133640699601969631 0
 62D:\My Project\forkify-app\node_modules\semver\functions\inc.js133640699907354202 0
 64D:\My Project\forkify-app\node_modules\core-js\full\set\every.js133640744476954066 0
@@ -12,7 +12,7 @@
 59D:\My Project\forkify-app\node_modules\weak-lru-cache\tests133640699598129965 1
 77D:\My Project\forkify-app\node_modules\core-js\modules\es.typed-array.fill.js133640744474772091 0
 76D:\My Project\forkify-app\node_modules\core-js\stable\symbol\to-primitive.js133640744491356247 0
-30D:\My Project\forkify-app\dist133649656694187931 1
+30D:\My Project\forkify-app\dist133649700497792380 1
 73D:\My Project\forkify-app\node_modules\core-js\modules\es.array.reduce.js133640744473207888 0
 56D:\My Project\forkify-app\node_modules\has-flag\index.js133640699591001449 0
 123D:\My Project\forkify-app\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133640699909773058 0
@@ -130,7 +130,7 @@
 70D:\My Project\forkify-app\node_modules\svgo\plugins\applyTransforms.js133640699910399797 0
 63D:\My Project\forkify-app\node_modules\entities\lib\decode.d.ts133640699908619662 0
 75D:\My Project\forkify-app\node_modules\css-tree\cjs\syntax\pseudo\index.cjs133640699912237712 0
-41D:\My Project\forkify-app\src\js\model.js133646781973267520 0
+41D:\My Project\forkify-app\src\js\model.js133649687534758755 0
 68D:\My Project\forkify-app\node_modules\js-yaml\lib\type\timestamp.js133640699909453708 0
 60D:\My Project\forkify-app\node_modules\detect-libc\README.md133640699591265495 0
 47D:\My Project\forkify-app\node_modules\anymatch133640700716161342 1
@@ -261,7 +261,7 @@
 71D:\My Project\forkify-app\node_modules\core-js\features\math\degrees.js133640744472006366 0
 63D:\My Project\forkify-app\node_modules\ordered-binary\README.md133640699606042149 0
 69D:\My Project\forkify-app\node_modules\core-js\full\instance\slice.js133640744489221769 0
-42D:\My Project\forkify-app\src\js\config.js133646770814318417 0
+42D:\My Project\forkify-app\src\js\config.js133649671523660396 0
 61D:\My Project\forkify-app\node_modules\lightningcss\README.md133640699906304003 0
 70D:\My Project\forkify-app\node_modules\caniuse-lite\data\regions\VC.js133640699644996888 0
 83D:\My Project\forkify-app\node_modules\core-js\modules\es.typed-array.int8-array.js133640744474872141 0
@@ -276,19 +276,29 @@
 68D:\My Project\forkify-app\node_modules\core-js\actual\object\seal.js133640744488321458 0
 113D:\My Project\forkify-app\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js133640699903299417 0
 58D:\My Project\forkify-app\node_modules\readdirp\index.d.ts133640700716171415 0
-46D:\My Project\forkify-app\src\js\controller.js133649652845207815 0
+46D:\My Project\forkify-app\src\js\controller.js133649699956993899 0
 93D:\My Project\forkify-app\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Comment.cjs133640699907577790 0
 65D:\My Project\forkify-app\node_modules\@swc\helpers\src\index.mjs133640699920291531 0
 84D:\My Project\forkify-app\node_modules\core-js\modules\web.url-search-params.size.js133640744493788139 0
 71D:\My Project\forkify-app\node_modules\core-js\actual\object\entries.js133640744472721091 0
 82D:\My Project\forkify-app\node_modules\core-js\modules\esnext.iterator.for-each.js133640744475632051 0
-38D:\My Project\forkify-app\src\js\views133647603029684081 1
+38D:\My Project\forkify-app\src\js\views133649688773693516 1
 67D:\My Project\forkify-app\node_modules\css-tree\lib\parser\index.js133640699916060390 0
 76D:\My Project\forkify-app\node_modules\@swc\helpers\src\_sliced_to_array.mjs133640699920118397 0
 67D:\My Project\forkify-app\node_modules\core-js\actual\string\sub.js133640744490282116 0
 70D:\My Project\forkify-app\node_modules\caniuse-lite\data\regions\MK.js133640699641465550 0
 52D:\My Project\forkify-app\node_modules\svgo\bin\svgo133640699902367921 0
 64D:\My Project\forkify-app\node_modules\csso\lib\replace\color.js133640699911545688 0
+66D:\My Project\forkify-app\node_modules\css-tree\lib\lexer\match.js133640699917130213 0
+70D:\My Project\forkify-app\node_modules\caniuse-lite\data\regions\TZ.js133640699644770433 0
+57D:\My Project\forkify-app\node_modules\node-releases\data133640699595224594 1
+60D:\My Project\forkify-app\node_modules\semver\internal\re.js133640699909967673 0
+72D:\My Project\forkify-app\node_modules\core-js\modules\es.array.every.js133640744473054225 0
+67D:\My Project\forkify-app\node_modules\weak-lru-cache\tests\test.js133640699598526538 0
+69D:\My Project\forkify-app\node_modules\core-js\modules\es.array.of.js133640744473177856 0
+56D:\My Project\forkify-app\src\js\views\paginationView.js133649700496813042 0
+81D:\My Project\forkify-app\node_modules\csso\node_modules\css-tree\cjs\syntax\node133640699914584300 1
+76D:\My Project\forkify-app\node_modules\csso\lib\replace\AttributeSelector.js133640699911320139 0
 73D:\My Project\forkify-app\node_modules\cosmiconfig\dist\getDirectory.d.ts133640699910882607 0
 70D:\My Project\forkify-app\node_modules\core-js\actual\instance\keys.js133640744484673785 0
 93D:\My Project\forkify-app\node_modules\core-js\modules\esnext.disposable-stack.constructor.js133640744475533221 0
@@ -961,12 +971,6 @@
 84D:\My Project\forkify-app\node_modules\core-js\modules\esnext.async-iterator.find.js133640744475390122 0
 57D:\My Project\forkify-app\node_modules\picocolors\LICENSE133640699586999084 0
 72D:\My Project\forkify-app\node_modules\weak-lru-cache\tests\benchmark.js133640699589468672 0
-66D:\My Project\forkify-app\node_modules\css-tree\lib\lexer\match.js133640699917130213 0
-70D:\My Project\forkify-app\node_modules\caniuse-lite\data\regions\TZ.js133640699644770433 0
-57D:\My Project\forkify-app\node_modules\node-releases\data133640699595224594 1
-60D:\My Project\forkify-app\node_modules\semver\internal\re.js133640699909967673 0
-72D:\My Project\forkify-app\node_modules\core-js\modules\es.array.every.js133640744473054225 0
-67D:\My Project\forkify-app\node_modules\weak-lru-cache\tests\test.js133640699598526538 0
 71D:\My Project\forkify-app\node_modules\@parcel\packager-js\package.json133640699908243015 0
 68D:\My Project\forkify-app\node_modules\weak-lru-cache\dist\index.cjs133640699587278218 0
 77D:\My Project\forkify-app\node_modules\css-tree\cjs\syntax\node\Dimension.cjs133640699909927776 0
@@ -1837,10 +1841,10 @@
 84D:\My Project\forkify-app\node_modules\csso\node_modules\mdn-data\css\selectors.json133640699908296385 0
 111D:\My Project\forkify-app\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test133640699926151998 0
 77D:\My Project\forkify-app\node_modules\core-js\internals\error-stack-clear.js133640744472911081 0
-70D:\My Project\forkify-app\node_modules\sass\types\legacy\function.d.ts133640700716552881 0
 82D:\My Project\forkify-app\node_modules\css-tree\cjs\syntax\node\MediaQueryList.cjs133640699913070695 0
 84D:\My Project\forkify-app\node_modules\core-js\features\object\prevent-extensions.js133640744486930052 0
 63D:\My Project\forkify-app\node_modules\semver\internal\debug.js133640699905823361 0
+70D:\My Project\forkify-app\node_modules\sass\types\legacy\function.d.ts133640700716552881 0
 81D:\My Project\forkify-app\node_modules\core-js\internals\array-buffer-transfer.js133640744469279928 0
 77D:\My Project\forkify-app\node_modules\@babel\helper-validator-identifier\lib133640699601376616 1
 73D:\My Project\forkify-app\node_modules\@parcel\utils\test\urlJoin.test.js133640699912902644 0
@@ -1944,7 +1948,6 @@
 66D:\My Project\forkify-app\node_modules\sass\types\value\mixin.d.ts133640700716650455 0
 71D:\My Project\forkify-app\node_modules\css-what\lib\commonjs\index.d.ts133640699611038085 0
 69D:\My Project\forkify-app\node_modules\csso\cjs\restructure\index.cjs133640699908907046 0
-65D:\My Project\forkify-app\node_modules\lightningcss\node\flags.js133640699905151706 0
 70D:\My Project\forkify-app\node_modules\core-js\internals\a-weak-map.js133640744468781632 0
 82D:\My Project\forkify-app\node_modules\caniuse-lite\data\features\pad-start-end.js133640699642400195 0
 77D:\My Project\forkify-app\node_modules\sass\types\logger\source_location.d.ts133640700716720447 0
@@ -2859,6 +2862,7 @@
 71D:\My Project\forkify-app\node_modules\css-tree\lib\generator\create.js133640699915155535 0
 75D:\My Project\forkify-app\node_modules\lightningcss\node\composeVisitors.js133640699904635902 0
 73D:\My Project\forkify-app\node_modules\core-js\stable\object\is-sealed.js133640744483635643 0
+65D:\My Project\forkify-app\node_modules\lightningcss\node\flags.js133640699905151706 0
 67D:\My Project\forkify-app\node_modules\lightningcss\node\index.d.ts133640699907577790 0
 56D:\My Project\forkify-app\node_modules\anymatch\index.js133640700716063466 0
 72D:\My Project\forkify-app\node_modules\core-js\modules\es.regexp.test.js133640744474284761 0
@@ -3860,9 +3864,6 @@
 77D:\My Project\forkify-app\node_modules\core-js\modules\esnext.map.map-keys.js133640744475839439 0
 93D:\My Project\forkify-app\node_modules\css-select\node_modules\domutils\lib\esm\legacy.js.map133640699909611199 0
 86D:\My Project\forkify-app\node_modules\csso\node_modules\css-tree\cjs\syntax\index.cjs133640699911713988 0
-69D:\My Project\forkify-app\node_modules\core-js\modules\es.array.of.js133640744473177856 0
-81D:\My Project\forkify-app\node_modules\csso\node_modules\css-tree\cjs\syntax\node133640699914584300 1
-76D:\My Project\forkify-app\node_modules\csso\lib\replace\AttributeSelector.js133640699911320139 0
 75D:\My Project\forkify-app\node_modules\core-js\features\object\is-sealed.js133640744483625734 0
 82D:\My Project\forkify-app\node_modules\csso\node_modules\css-tree\cjs\syntax\scope133640699914439572 1
 101D:\My Project\forkify-app\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\Rule.js133640699910399797 0
@@ -5658,7 +5659,6 @@
 67D:\My Project\forkify-app\node_modules\core-js\actual\array\keys.js133640744484663945 0
 71D:\My Project\forkify-app\node_modules\core-js\es\instance\find-last.js133640744478010759 0
 75D:\My Project\forkify-app\node_modules\core-js\modules\esnext.math.isubh.js133640744475953157 0
-76D:\My Project\forkify-app\node_modules\core-js\full\symbol\async-iterator.js133640744469885772 0
 75D:\My Project\forkify-app\node_modules\core-js\modules\esnext.math.scale.js133640744475975512 0
 81D:\My Project\forkify-app\node_modules\core-js\modules\esnext.math.seeded-prng.js133640744475995676 0
 77D:\My Project\forkify-app\node_modules\core-js\modules\esnext.math.signbit.js133640744476005504 0
@@ -6053,6 +6053,7 @@
 78D:\My Project\forkify-app\node_modules\caniuse-lite\data\features\clipboard.js133640699628233936 0
 71D:\My Project\forkify-app\node_modules\core-js\full\typed-array\with.js133640744493993775 0
 75D:\My Project\forkify-app\node_modules\core-js\full\symbol\async-dispose.js133640744469782894 0
+76D:\My Project\forkify-app\node_modules\core-js\full\symbol\async-iterator.js133640744469885772 0
 104D:\My Project\forkify-app\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\index.js133640699907527841 0
 72D:\My Project\forkify-app\node_modules\core-js\actual\string\fontsize.js133640744478876812 0
 76D:\My Project\forkify-app\node_modules\core-js\full\symbol\custom-matcher.js133640744471705515 0
@@ -6229,7 +6230,7 @@
 68D:\My Project\forkify-app\node_modules\core-js\full\object\assign.js133640744469732883 0
 75D:\My Project\forkify-app\node_modules\core-js\full\object\define-getter.js133640744471821991 0
 77D:\My Project\forkify-app\node_modules\core-js\full\object\define-property.js133640744471922093 0
-49D:\My Project\forkify-app\dist\icons.21bad73c.svg133649650831029446 0
+49D:\My Project\forkify-app\dist\icons.21bad73c.svg133649698517662051 0
 70D:\My Project\forkify-app\node_modules\@parcel\core\src\projectPath.js133640699914644214 0
 75D:\My Project\forkify-app\node_modules\core-js\full\object\define-setter.js133640744471971981 0
 74D:\My Project\forkify-app\node_modules\caniuse-lite\data\features\webxr.js133640699645713492 0
@@ -8521,7 +8522,7 @@
 77D:\My Project\forkify-app\node_modules\@swc\helpers\src\_write_only_error.mjs133640699920281456 0
 68D:\My Project\forkify-app\node_modules\@swc\helpers\scripts\build.js133640699915737718 0
 69D:\My Project\forkify-app\node_modules\@swc\helpers\scripts\errors.js133640699915757691 0
-49D:\My Project\forkify-app\dist\index.f7626f62.css133649650830918449 0
+49D:\My Project\forkify-app\dist\index.f7626f62.css133649698519909627 0
 64D:\My Project\forkify-app\node_modules\@swc\helpers\esm\index.js133640699915767686 0
 86D:\My Project\forkify-app\node_modules\@swc\helpers\esm\_apply_decorated_descriptor.js133640699913582852 0
 76D:\My Project\forkify-app\node_modules\@swc\helpers\esm\_array_with_holes.js133640699913649470 0
@@ -9525,7 +9526,7 @@
 73D:\My Project\forkify-app\node_modules\@parcel\core\src\PackagerRunner.js133640699913897824 0
 71D:\My Project\forkify-app\node_modules\@parcel\core\src\ParcelConfig.js133640699914199094 0
 62D:\My Project\forkify-app\node_modules\@parcel\core\src\public133640699915251450 1
-41D:\My Project\forkify-app\dist\index.html133649650830918449 0
+41D:\My Project\forkify-app\dist\index.html133649697347689409 0
 85D:\My Project\forkify-app\node_modules\@parcel\core\src\registerCoreWithSerializer.js133640699914839555 0
 73D:\My Project\forkify-app\node_modules\@parcel\core\src\ReporterRunner.js133640699914882816 0
 73D:\My Project\forkify-app\node_modules\@parcel\core\src\RequestTracker.js133640699914942979 0
@@ -9704,9 +9705,9 @@
 52D:\My Project\forkify-app\node_modules\.bin\svgo.cmd133640699926126994 0
 70D:\My Project\forkify-app\node_modules\.bin\update-browserslist-db.cmd133640699671312383 0
 70D:\My Project\forkify-app\node_modules\.bin\update-browserslist-db.ps1133640699671312383 0
-49D:\My Project\forkify-app\dist\icons.dfd7a6db.svg133649650830918449 0
-48D:\My Project\forkify-app\dist\logo.726d37a8.png133649650830908497 0
-51D:\My Project\forkify-app\dist\favicon.8b2f57bf.png133649650831049253 0
-53D:\My Project\forkify-app\dist\index.f7626f62.css.map133649650831069257 0
-48D:\My Project\forkify-app\dist\index.e37f48ea.js133649656694117519 0
-52D:\My Project\forkify-app\dist\index.e37f48ea.js.map133649656694168012 0
+51D:\My Project\forkify-app\dist\favicon.8b2f57bf.png133649698516213067 0
+49D:\My Project\forkify-app\dist\icons.dfd7a6db.svg133649698517662051 0
+48D:\My Project\forkify-app\dist\logo.726d37a8.png133649698518807417 0
+53D:\My Project\forkify-app\dist\index.f7626f62.css.map133649698519970207 0
+48D:\My Project\forkify-app\dist\index.e37f48ea.js133649700497741711 0
+52D:\My Project\forkify-app\dist\index.e37f48ea.js.map133649700497782372 0
